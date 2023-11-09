@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
 .menu-logo {
-    width: 1820px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,21 +33,24 @@ font-weight: 700;
     }
 }
 .img-front {
-    background-repeat: no-repeat;
-    flex-direction: column;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    width: 1920px;
-    height: 700px;
-    background-image: url(./images/Your\ images\ here.png);
-    margin-bottom: 2rem;
-    .Vehicle {
+    width: 100%;
+    height: 600px;
+}
+.img-content {
+    margin-left: 15%;
+    margin-top: 20%;
+    position: absolute;
+        .Vehicle {
         margin-bottom: 15px;
+        color: #FFF;
+font-family: PT Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
     }
-    p {
-        margin-bottom: 3rem;
-        margin-left: 25rem;
+    .small-text {
         color: #FFF;
         font-family: PT Serif;
         font-size: 14px;
@@ -52,13 +58,12 @@ font-weight: 700;
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
-        word-spacing: 2px
+        word-spacing: 5px
     }
-    .strong{
+    .strong-text{
         margin-top: 0;
         margin-bottom: 0px;
         text-transform: none;
-        width: 560px;
         color: #FFF;
         font-family: PT sans-serif;
         font-size: 40px;
@@ -67,9 +72,10 @@ font-weight: 700;
         line-height: 50px; /* 125% */
     }
 }
+
 main {
+   width: 100%;
     justify-content: center;
-    width: 1920px;
     display: flex;
     gap: 10rem;
 
@@ -452,14 +458,15 @@ line-height: normal;
     justify-content: center;
     margin-top: 4rem;
     margin-bottom: 2rem;
-    width: 1920px;
     
 }
 .foter-img {
-    width: 1920px;
 display: flex;
 justify-content: space-between;
-    
+    a img{
+        width: 270px;
+        height: 270px;
+    }
 }
 
 .footer-name {
@@ -468,7 +475,6 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1920px;
     color: #171717;
 font-family: PT Serif;
 font-size: 25px;
@@ -480,7 +486,6 @@ letter-spacing: 2.5px;
 
 .footer {
     gap: 40px;
-    width: 1920px;
     justify-content: center;
     display: flex;
    
@@ -500,14 +505,12 @@ letter-spacing: 2.5px;
     gap: 20px;
     margin-bottom: 6rem;
     margin-top: 2rem;
-    width: 1920px;
     display: flex;
     justify-content: center;
 }
 .footer-a {
     align-items: center;
     flex-direction: column;
-   width: 1920px;
    display: flex;
    justify-content: center;
    margin-bottom: 2rem;
