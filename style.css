@@ -39,6 +39,9 @@
   background-image: url(./images/Your\ images\ here.png);
   margin-bottom: 2rem;
 }
+.img-front #Vehicle {
+  margin-bottom: 15px;
+}
 .img-front p {
   margin-bottom: 3rem;
   margin-left: 25rem;
