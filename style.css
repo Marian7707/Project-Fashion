@@ -3,26 +3,27 @@
 }
 
 .container {
-  max-width: 100vw;
+  justify-content: space-evenly;
+  display: flex;
 }
 
-.menu-logo {
+.header-content {
+  gap: 950px;
+  max-width: 1400px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 40px;
   font-family: PT Serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
 }
-.menu-logo ul {
+.header-content ul {
   list-style: none;
   flex-direction: row;
   display: flex;
   gap: 30px;
 }
-.menu-logo a {
+.header-content a {
   color: black;
   font-family: PT Serif;
   font-size: 14px;
@@ -31,23 +32,26 @@
   line-height: normal;
   text-decoration: none;
 }
-.menu-logo a:hover {
+.header-content a:hover {
   color: #C9A96E;
 }
 
 .img-front {
-  width: 100%;
+  justify-content: center;
+  display: flex;
   height: 600px;
 }
 
 .img-content {
-  margin-left: 15%;
-  margin-top: 20%;
+  top: 420px;
+  left: 300px;
   position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 .img-content .Vehicle {
   margin-bottom: 15px;
-  color: #FFF;
+  color: #000000;
   font-family: PT Sans;
   font-size: 14px;
   font-style: normal;
@@ -478,6 +482,7 @@ main {
   max-width: 100vw;
   overflow: auto;
 }
+
 .footer-name {
   margin-top: 6rem;
   margin-bottom: 4rem;
