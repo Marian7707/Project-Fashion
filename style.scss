@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
+.container {
+    max-width: 100vw;
+    overflow: auto;
+}
 .menu-logo {
     display: flex;
     flex-direction: row;
@@ -463,6 +466,8 @@ line-height: normal;
 .foter-img {
 display: flex;
 justify-content: space-between;
+max-width: 100vw;
+overflow: auto;
     a img{
         width: 270px;
         height: 270px;
