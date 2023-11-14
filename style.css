@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 100vw;
+}
+
 .menu-logo {
   display: flex;
   flex-direction: row;
@@ -471,12 +475,9 @@ main {
 .foter-img {
   display: flex;
   justify-content: space-between;
+  max-width: 100vw;
+  overflow: auto;
 }
-.foter-img a img {
-  width: 270px;
-  height: 270px;
-}
-
 .footer-name {
   margin-top: 6rem;
   margin-bottom: 4rem;
