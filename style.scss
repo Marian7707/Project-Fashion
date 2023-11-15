@@ -40,14 +40,17 @@ font-weight: 700;
     height: 600px;
 }
 .img-content {
+    max-width: 600px;
     top: 420px;
     left: 300px;
     position: absolute;
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-direction: column;
         .Vehicle {
         margin-bottom: 15px;
-        color: #000000;
+        color: #fff;
 font-family: PT Sans;
 font-size: 14px;
 font-style: normal;
