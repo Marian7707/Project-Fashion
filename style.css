@@ -37,6 +37,7 @@
 }
 
 .img-front {
+  position: relative;
   justify-content: center;
   display: flex;
   width: 100%;
@@ -44,9 +45,8 @@
 }
 
 .img-content {
-  width: 100%;
-  top: 420px;
-  left: 300px;
+  left: 400px;
+  top: 350px;
   align-items: center;
   justify-content: center;
   position: absolute;
